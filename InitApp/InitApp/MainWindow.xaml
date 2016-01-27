@@ -1,0 +1,14 @@
+﻿<Window x:Class="InitApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" MaxHeight="500" MaxWidth="500"
+        Height="500" Width="500">
+    <Canvas>
+        <Button x:Name="BtnSelectEmails" Content="Select Emails" Click="BtnSelectEmailsClick" Canvas.Left="200" Canvas.Top="34" Width="100" Height="30"></Button>
+        
+        <TextBlock x:Name="TxtBlockEmails"></TextBlock>
+
+        <Button x:Name="BtnStart" Click="BtnStartClick" Canvas.Left="77" Canvas.Top="266" Width="100" Height="30">Start</Button>
+        <Button x:Name="BtnStop" Click="BtnStopClick" Canvas.Left="338" Canvas.Top="266" Width="100" Height="30">Stop</Button>
+    </Canvas>
+</Window>
